@@ -12,7 +12,12 @@ a:link,
 a:visited {
   color: white;
   text-decoration: none !important;
+  font-weight: 600;
 }
 a:hover {
   color: #fd8ed4 !important;
+}
+
+.fa-github {
+  font-size: 2rem;
 }

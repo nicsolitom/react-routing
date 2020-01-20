@@ -21,5 +21,9 @@ Create a Webapp/Website using a client-side routing. Your project should contain
 Reference:
  [React Router documentation](https://reacttraining.com/react-router/web)
 
+ ## Installed:
+ npm i -D @fortawesome/fontawesome-free
 
+ and added: 
+ import '@fortawesome/fontawesome-free/css/all.css';
 

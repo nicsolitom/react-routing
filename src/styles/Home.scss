@@ -6,5 +6,27 @@
   justify-content: center;
 }
 .RockstarImage {
+  max-width: 80vw;
+}
+
+h5 {
+  font-size: 1.5rem!important;
+  font-weight: 700!important;
+}
+
+@media only screen and (min-width: 600px) {
+.RockstarImage {
+  max-width: 65vw;
   max-height: 50vh;
+}
+h5 {
+  font-size: 2rem!important;
+}
+}
+@media only screen and (min-width: 900px) {
+.RockstarImage {
+  max-width: auto;
+  max-height: 50vh;
+}
+
 }

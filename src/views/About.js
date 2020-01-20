@@ -7,8 +7,13 @@ export default function About() {
         <h5>About</h5>
         <br />
         <p>Links to my pages online:</p>
-        <a href="https://github.com/nicsolitom" target="_blank">GitHub</a><br />
-        <a href="https://www.nicsolitom.com" target="_blank">nicsolitom.com</a>
+        <a href="https://github.com/nicsolitom">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <br />
+        <a href="https://www.nicsolitom.com">
+          <i class="fas fa-hand-spock"></i> nicsolitom.com
+        </a>
       </div>
     );
 }

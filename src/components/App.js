@@ -1,11 +1,17 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch, NavLink} from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  NavLink
+} from 'react-router-dom';
 
 import Home from '../views/Home';
 import About from '../views/About';
 import Credit from '../views/Credit';
 
 import '../styles/App.scss';
+import '@fortawesome/fontawesome-free/css/all.css';
 
 function App() {
   return (
